@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message Person{
+    // id corresponding to the person
+    int64 id = 1;
+
+    // name of person
+    string name = 2;
+}
