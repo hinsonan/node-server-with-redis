@@ -2,8 +2,9 @@
 // PROTOBUF CODE
 //********************************/
 var message = require("./test_message_pb.js")
-message.name.setName("Jack")
-console.log(message.name)
+person = new message.Person()
+person.setId(100)
+console.log(person.getId())
 
 //********************************/
 // REDIS CODE
